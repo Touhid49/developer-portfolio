@@ -15,7 +15,7 @@ h1{
     
 }
 
-section{
+.flex{
     display: flex;
     padding-left: 6%;
     
@@ -55,4 +55,33 @@ background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
 
+}
+h4{
+
+    color: orange;
+}
+.ex-area{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50px;
+}
+.box-s{
+    
+    
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 20px;
+    
+    box-shadow: 10px 10px 40px #888888;
+
+    
+
+}
+.bg-img{
+    border-left: 7px solid;
+
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
 }
